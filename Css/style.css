@@ -1,8 +1,17 @@
 body{
     background: rgb(38, 38, 51);
 }
-.red{
-    background: red;
+.basic-container{
+    background: rgb(224, 224, 224);
+    color:dimgrey;
+}
+.intro-container{
+    background: rgb(224, 224, 224);
+    color:dimgrey;
+    height: 300px;
+}
+.intro-image-border{
+    
 }
 .spacer{
     background: rgb(17, 2, 27);

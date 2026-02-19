@@ -7,45 +7,145 @@
     <title>Document</title>
 
     <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
-
+    <link rel="stylesheet" href="../Css/style.css">
 
 </head>
 
 <body>
-    <header>
-        <!--Navigation Bar-->
-        <nav class="navbar navbar-expand-md bg-black fixed-top">
-            <div class="container-fluid">
 
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#headerNavigation" aria-controls="headerNavigation" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+    <!--Navigation Bar(With Tabs)-->
+    <nav class="navbar navbar-expand-md bg-black fixed-top">
+        <div class="container-fluid">
 
-                <div class="collapse navbar-collapse" id="headerNavigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#headerNavigation"
+                aria-controls="headerNavigation" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-                    <ul class="nav nav-tabs me-auto mb-2 mb-md-0">
-                        <li class="nav-item">
-                            <a class="nav-link navbar-brand text-light" href="./index.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link disabled text-light" aria-disabled="true">My Games</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-light" href="./recruiting.html">Recruiting</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-light" href="./about.html">About</a>
-                        </li>
-                    </ul>
-                </div>
+            <div class="collapse navbar-collapse" id="headerNavigation">
+
+                <ul class="nav nav-tabs me-auto mb-2 mb-md-0">
+                    <li class="nav-item">
+                        <a class="nav-link navbar-brand text-light" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled text-light" aria-disabled="true">My Games</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="./recruiting.html">Recruiting</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="./about.html">About</a>
+                    </li>
+                </ul>
             </div>
-        </nav>
-    </header>
+        </div>
+    </nav>
 
     <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <!-- Top Spacer -->
+    <div class="spacer">
+        <div class="container sm-3 "></div>
+    </div>
+    <!--Game Text One-->
+    <div style="margin-top: 60px;">
+        <div class="basic-container">
+            <div class="container sm-3">
+                <div class="row justify-content-center  g-3">
+                    <div class="col">
+                        <!--Image of one of my games or some random free stock image-->
+                        <img src="" alt="A Photo of a game">
+                    </div>
+                    <div class="col">
+                        <div class="Description">
+                            <!--Heading Text-->
+                            <h1>Game One
 
+                            </h1>
+                            <!--Description-->
+                            <ul>
+                                <p>fasfadf</p>
+                                <p>fasfadf</p>
+                                <p>fasfadf</p>
+                                <p>fasfadf</p>
+                            </ul>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bottom Spacer-->
+    <div class="spacer">
+        <div class="container sm-3 "></div>
+    </div>
+    <!--Game Text Two-->
+    <div style="margin-top: 60px;">
+        <div class="basic-container">
+            <div class="container sm-3">
+                <div class="row justify-content-center  g-3">
+                    <div class="col">
+                        <div class="Description">
+                            <!--Heading Text-->
+                            <h1>Game Two
+
+                            </h1>
+                            <!--Description-->
+                            <ul>
+                                <p>fasfadf</p>
+                                <p>fasfadf</p>
+                                <p>fasfadf</p>
+                                <p>fasfadf</p>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <!--Image of me or some random free stock image-->
+                        <img src="" alt="A Photo of a game">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Bottom Spacer-->
+    <div class="spacer">
+        <div class="container sm-3 "></div>
+    </div>
+    <!-- Fixed Bottom Spacer-->
+    <div class="fixed-bottom">
+        <div class="footerspacer">
+            <div class="container sm-3 ">
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Launch demo modal
+                </button>
+
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Survey Contact Me Modal-->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
