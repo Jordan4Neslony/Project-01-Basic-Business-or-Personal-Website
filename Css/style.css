@@ -47,6 +47,10 @@ body{
     background: black;
     height: 120px;
 }
+.contact-me-button{
+    color:black;
+    margin-top: 40px;
+}
 .description{
     color: black;
 }
