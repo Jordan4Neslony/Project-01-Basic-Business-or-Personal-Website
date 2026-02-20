@@ -23,6 +23,26 @@ body{
     color:dimgrey;
     border-radius: 0px;
 }
+.game-container{
+    border-width: 10px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+    
+}
+.game-column-extender{
+    height: 300px;
+    border-radius: 10px;
+}
+.game-image-border{
+    margin-top: 20px;
+    border-width: 10px;
+    border-style:groove;
+    border-color: rgb(13, 0, 23);
+    background: rgb(224, 224, 224);
+    color:dimgrey;
+    border-radius: 0px;
+}
 .spacer{
     background: rgb(17, 2, 27);
     margin-top: 40px;
