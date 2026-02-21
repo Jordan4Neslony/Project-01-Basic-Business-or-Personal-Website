@@ -9,6 +9,7 @@ body{
     background: rgb(224, 224, 224);
     color:dimgrey;
     height: 300px;
+    max-width: 900px;
     border-width: 10px;
     border-style: solid;
     border-color: black;
@@ -27,12 +28,14 @@ body{
 .game-container{
     border-width: 10px;
     border-style: solid;
-    border-color: black;
+    border-color: rgb(22, 20, 23);
     border-radius: 10px;
-    
 }
 .game-column-extender{
     height: 300px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: black;
     border-radius: 10px;
 }
 .game-image-border{
