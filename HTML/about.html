@@ -48,7 +48,7 @@
     <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
 
     <!--Introductory Text-->
-    <div class="intro-container mx-auto" >
+    <div class="intro-container mx-auto">
         <div class="container mx-auto">
             <div class="row justify-content-center align-items-center g-3">
                 <div class="col flex-column align-items-center">
@@ -59,17 +59,18 @@
                         <ul>
                             <h6>
                                 From a young age I have always been deeply fascinated by video games.
-                                 When I was in eighth grade, one day I suddenly woke up and thought to myself, 
-                                 "if I like video games so much, why don't I make them?" This thought led me to where I am now,
-                                 an aspiring game programmer, trying to make the best video game in the world.
-                            </h4>
+                                When I was in eighth grade, one day I suddenly woke up and thought to myself,
+                                "if I like video games so much, why don't I make them?" This thought led me to where I
+                                am now,
+                                an aspiring game programmer, trying to make the best video game in the world.
+                                </h4>
                         </ul>
                     </div>
                 </div>
                 <div class="col d-flex justify-content-center">
                     <!--Image of me or some random free stock image-->
-                    <img class="about-me-image-border" src="../Images/pexels-citronovalimonada-687811.jpg" alt="A Photo of Jordan N."
-                        width="300" height="200">
+                    <img class="about-me-image-border" src="../Images/pexels-citronovalimonada-687811.jpg"
+                        alt="A Photo of Jordan N." width="300" height="200">
                 </div>
             </div>
         </div>
@@ -98,17 +99,17 @@
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="contactMeModalLabel">Modal title</h1>
+                    <h1 class="modal-title fs-5" id="contactMeModalLabel">Contact Me</h1>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <form action="" class="mt-4">
+                    <form action="https://formspree.io/f/xeelrzzw" method="post" class="mt-4">
                         <table class="table table-bordered mx-auto modal-contact-me-form">
                             <tbody>
                                 <tr>
                                     <td><label for="firstName" class="form-label">First Name</label></td>
                                     <td><input type="text" class="form-control" id="firstName" name="firstName"
-                                            placeholder="Enter first name"></td>
+                                            placeholder="Enter first name" required></td>
                                 </tr>
                                 <tr>
                                     <td><label for="lastName" class="form-label">Last Name</label></td>
@@ -118,38 +119,45 @@
                                 <tr>
                                     <td><label for="email" class="form-label">Email</label></td>
                                     <td><input type="email" class="form-control" id="email" name="email"
-                                            placeholder="Enter email">
+                                            placeholder="Enter email" required>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td><label class="form-label">Options</label></td>
                                     <td class="text-start">
                                         <div class="form-check">
-                                            <input class="form-check-input" type="radio" name="option" id="option1"
-                                                value="option1">
-                                            <label class="form-check-label" for="option1">Option 1</label>
+                                            <input class="form-check-input" type="radio" name="option" id="Buisness"
+                                                value="Buisness" required>
+                                            <label class="form-check-label" for="Buisness">Buisness</label>
                                         </div>
                                         <div class="form-check">
-                                            <input class="form-check-input" type="radio" name="option" id="option2"
-                                                value="option2">
-                                            <label class="form-check-label" for="option2">Option 2</label>
+                                            <input class="form-check-input" type="radio" name="option" id="Personal"
+                                                value="Personal" required>
+                                            <label class="form-check-label" for="Personal">Personal</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="option" id="Other"
+                                                value="Other" required>
+                                            <label class="form-check-label" for="Other">Other</label>
                                         </div>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td><label for="comments" class="form-label">Comments</label></td>
+                                    <td>
+                                        <label for="comments" class="form-label">Comments</label>
+                                    </td>
                                     <td>
                                         <textarea class="form-control" id="comments" name="comments" rows="5"
-                                            placeholder="Enter your comments here..."></textarea>
+                                            placeholder="Enter your comments here..." required></textarea>
                                     </td>
                                 </tr>
                             </tbody>
                         </table>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <input class="btn btn-primary" type="submit" value="Submit">
+                        </div>
                     </form>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
                 </div>
             </div>
         </div>
