@@ -47,8 +47,63 @@
     </nav>
 
     <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <!--Introductory Text-->
 
-        <!-- Bottom Spacer-->
+
+
+
+    <!--Heading Text-->
+    <h1 class="text-center description-white">
+        Contact Me
+    </h1>
+
+
+    <form action="" class="mt-4">
+        <table class="table table-bordered mx-auto contact-me-form">
+            <tbody>
+                <tr>
+                    <td><label for="firstName" class="form-label">First Name</label></td>
+                    <td><input type="text" class="form-control" id="firstName" name="firstName"
+                            placeholder="Enter first name"></td>
+                </tr>
+                <tr>
+                    <td><label for="lastName" class="form-label">Last Name</label></td>
+                    <td><input type="text" class="form-control" id="lastName" name="lastName"
+                            placeholder="Enter last name"></td>
+                </tr>
+                <tr>
+                    <td><label for="email" class="form-label">Email</label></td>
+                    <td><input type="email" class="form-control" id="email" name="email" placeholder="Enter email">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label class="form-label">Options</label></td>
+                    <td class="text-start">
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="option" id="option1" value="option1">
+                            <label class="form-check-label" for="option1">Option 1</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="option" id="option2" value="option2">
+                            <label class="form-check-label" for="option2">Option 2</label>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="comments" class="form-label">Comments</label></td>
+                    <td>
+                        <textarea class="form-control" id="comments" name="comments" rows="5"
+                            placeholder="Enter your comments here..."></textarea>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+
+
+
+
+    <!-- Bottom Spacer-->
     <div class="foot-spacer">
         <div class="container sm-3 "></div>
     </div>
@@ -57,25 +112,69 @@
     <div class="fixed-bottom">
         <div class="fixed-footer-bar">
             <div class="container sm-3 ">
-                    <!-- Button trigger modal -->
-                    <button type="button" class="btn btn-light contact-me-button" data-bs-toggle="modal" data-bs-target="#contactMeModal">
-                        Contact Me
-                    </button>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-light contact-me-button" data-bs-toggle="modal"
+                    data-bs-target="#contactMeModal">
+                    Contact Me
+                </button>
             </div>
         </div>
     </div>
 
 
     <!-- Survey Contact Me Modal-->
-    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal fade" id="contactMeModal" tabindex="-1" aria-labelledby="contactMeModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <h1 class="modal-title fs-5" id="contactMeModalLabel">Modal title</h1>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    ...
+                    <form action="" class="mt-4">
+                        <table class="table table-bordered mx-auto modal-contact-me-form">
+                            <tbody>
+                                <tr>
+                                    <td><label for="firstName" class="form-label">First Name</label></td>
+                                    <td><input type="text" class="form-control" id="firstName" name="firstName"
+                                            placeholder="Enter first name"></td>
+                                </tr>
+                                <tr>
+                                    <td><label for="lastName" class="form-label">Last Name</label></td>
+                                    <td><input type="text" class="form-control" id="lastName" name="lastName"
+                                            placeholder="Enter last name"></td>
+                                </tr>
+                                <tr>
+                                    <td><label for="email" class="form-label">Email</label></td>
+                                    <td><input type="email" class="form-control" id="email" name="email"
+                                            placeholder="Enter email">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><label class="form-label">Options</label></td>
+                                    <td class="text-start">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="option" id="option1"
+                                                value="option1">
+                                            <label class="form-check-label" for="option1">Option 1</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="option" id="option2"
+                                                value="option2">
+                                            <label class="form-check-label" for="option2">Option 2</label>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><label for="comments" class="form-label">Comments</label></td>
+                                    <td>
+                                        <textarea class="form-control" id="comments" name="comments" rows="5"
+                                            placeholder="Enter your comments here..."></textarea>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </form>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
