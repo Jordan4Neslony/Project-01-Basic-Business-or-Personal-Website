@@ -23,3 +23,5 @@ This personal project aims to showcase the games I have made in the past, share 
 1. As a video game journalist, I want to review the quality of the games this creator has developed, so that I can publish an article detailing the games' ins and outs.
 2. As a recruiter for a game development studio, I want to see these developers' accomplishments at a glance, so that I can ascertain whether they would be a good fit for my studio.
 3. As a video game enthusiast, I want to watch this developer's progress, so that I can see if I will enjoy any of their games, present and future.
+
+# GitHub Pages Link: https://jordan4neslony.github.io/Project-01-Basic-Business-or-Personal-Website/ 
